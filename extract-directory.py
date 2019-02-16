@@ -24,6 +24,7 @@ def main():
         _directory = list(filter(None, _directory))
 
         extract(_directory)
+        print('Done! Check refined_directory.csv file!')
 
 if __name__ == '__main__':
     main()
